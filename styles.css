@@ -1,0 +1,54 @@
+.title {
+    border-style: solid;
+    text-align: center;
+    border-color: black;
+    font-style: oblique;
+    color: rgb(148, 148, 148);
+    text-shadow: 4px 4px 4px rgb(112, 112, 112);
+}
+h3 {
+    text-align: center;
+}
+.logo {
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 50%;
+    box-shadow: 8px 10px 10px 10px grey;
+}
+@keyframes moveBox {
+    0% {left: 25px; top: 0px;}
+    50% {left: -25px; top: 0px;}
+    100% {left: 25px; top: 0px;}
+}
+#logo1 {
+    position: relative;
+    animation: moveBox 2s infinite;
+}
+nav {
+    text-align: center; 
+    background-color: rgb(180, 255, 230);
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    padding: 35px;
+    border-style: solid;
+    border-radius: 40%;
+    border-color: rgb(66, 66, 66);
+
+}
+a {
+    text-decoration: none;
+}
+form label, input, textarea, button {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    
+}

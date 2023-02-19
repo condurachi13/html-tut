@@ -21,7 +21,7 @@
         <h1>Contact</h1>
     </div>
     <h3></h3>
-    <form action="index.html">
+    <form name="contact" method="Post" data-netlify="true">
       <label for="prenume">Nume</label>
       <input type="text" name="prenume" id="prenume" required>
       <label for="nume">Nume de familie</label>
@@ -30,7 +30,8 @@
       <input type="email" name="email;" placeholder="Email" required>
       <label for="Numar de telefon">Numar de telefon</label>
       <input type="tel" name="phone.num" placeholder="0123-456-789" required>
-      <textarea name="Mesaj" id="mesaj" cols="100" rows="6" placeholder="Scrie un mesaj..."></textarea>
+      <input type="hidden" name="form-name" value="contact">
+      <textarea name="Mesaj" id="mesaj" cols="60" rows="6" placeholder="Scrie un mesaj..."></textarea>
       <input type="submit" value="Trimite">
     </form>
     <a href="index.html"><img src="videoteca.jpg" alt="videoteca" class="logo" id="logo1"></a>

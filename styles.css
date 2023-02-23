@@ -1,14 +1,21 @@
+body {
+    background-image: url(backg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .title {
     border-style: solid;
     text-align: center;
     border-radius: 50px;
     border-color: black;
     font-style: oblique;
-    color: rgb(148, 148, 148);
+    color: rgb(225, 248, 225);
     text-shadow: 4px 4px 4px rgb(112, 112, 112);
 }
 h3 {
     text-align: center;
+    padding-top: 30px;
 }
 .logo {
     display: block;
@@ -18,24 +25,26 @@ h3 {
     margin-bottom: 0%;
     width: 15%;
     border-radius: 50%;
-    box-shadow: 8px 10px 10px 10px grey;
+    box-shadow: 4px 8px 6px 6px grey;
+    position: relative;
+    animation: moveBox 2s infinite;
 }
 @keyframes moveBox {
     0% {left: 25px; top: 0px;}
     50% {left: -25px; top: 0px;}
     100% {left: 25px; top: 0px;}
 }
-#logo1 {
-    position: relative;
-    animation: moveBox 2s infinite;
-}
 nav {
     text-align: center; 
-    background-color: rgb(180, 255, 230);
-    width: auto;
+    background-color: rgba(184, 167, 80, 0.45);
+    width: fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav ul {
     list-style: none;
+    text-align: center;
 }
 nav li {
     display: inline-block;
@@ -44,7 +53,6 @@ nav li {
     border-radius: 30%;
     border-color: rgb(66, 66, 66);
     width: auto;
-
 }
 a {
     text-decoration: none;

@@ -48,11 +48,11 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    padding: 10px;
+    padding: 8px;
     border-style: solid;
     border-radius: 30%;
     border-color: rgb(66, 66, 66);
-    width: auto;
+    width: fit-content;
 }
 a {
     text-decoration: none;

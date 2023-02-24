@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumpara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Acasa</li></a>
+                <a href="shop.html"><li>Cumpara</li></a>
+                <a href="about.html"><li>Despre noi</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="title">
+        <h1>Cumpara ce doresti!</h1>
+    </div>
+
+    <form name="cumpara" method="Post" data-netlify="true" class="shop">
+        <h3>Informatii despre comanda!</h3>
+        <label for="curier">Comanda prin curier</label>
+        <input type="radio" name="comanda" id="curier" value="curier">
+        <label for="personal">Ridicare personala</label>
+        <input type="radio" name="comanda" id="personal" value="personal">
+        <hr>
+        <label for="nume">Nume si prenume:</label>
+        <input type="text" name="nume" id="nume" placeholder="Numele si prenumele tau">
+        <label for="adresa">Adresa:</label>
+        <input type="text" name="adresa" id="adresa" placeholder="Adresa de livrare">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Adresa de email">
+        <hr>
+        <label for="tricou">Tricou</label>
+        <input type="checkbox" name="tricou" value="Tricou">
+        <label for="bluza">Bluza</label>
+        <input type="checkbox" name="bluza" value="Bluza">
+        <label for="hanorac">Hanorac</label>
+        <input type="checkbox" name="hanorac" value="Hanorac">
+    </form>
+
+    <a href="index.html"> <img src="videoteca.jpg" alt="videoteca" class="logo"></a>
+</body>
+</html>

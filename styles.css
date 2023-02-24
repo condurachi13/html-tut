@@ -48,7 +48,7 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     border-style: solid;
     border-radius: 30%;
     border-color: rgb(66, 66, 66);

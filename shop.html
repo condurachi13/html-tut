@@ -30,11 +30,13 @@
         <input type="radio" name="comanda" id="personal" value="personal">
         <hr>
         <label for="nume" style="color: aliceblue;">Nume si prenume:</label>
-        <input type="text" name="nume" id="nume" placeholder="Numele si prenumele tau">
+        <input type="text" name="nume" id="nume" placeholder="Numele si prenumele tau" required>
         <label for="adresa" style="color: aliceblue;">Adresa:</label>
-        <input type="text" name="adresa" id="adresa" placeholder="Adresa de livrare">
+        <input type="text" name="adresa" id="adresa" placeholder="Adresa de livrare" required>
+        <label for="phone" style="color: aliceblue;">Numarul de telefon:</label>
+        <input type="tel" name="telefon" placeholder="0723-456-789" required>
         <label for="email" style="color: aliceblue;">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Adresa de email">
+        <input type="email" name="email" id="email" placeholder="Adresa de email" required>
         <hr>
         <label for="tricou" style="color: aliceblue;">Tricou</label>
         <input type="checkbox" name="tricou" value="Tricou">
@@ -42,7 +44,7 @@
         <input type="checkbox" name="bluza" value="Bluza">
         <label for="hanorac" style="color: aliceblue;">Hanorac</label>
         <input type="checkbox" name="hanorac" value="Hanorac">
-        <input type="submit">
+        <input type="submit" value="Plaseaza comanda">
     </form>
 
     <a href="index.html"> <img src="videoteca.jpg" alt="videoteca" class="logo"></a>

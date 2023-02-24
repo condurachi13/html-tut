@@ -19,6 +19,5 @@ buttons.forEach(button => {
         this.appendChild(circle)
 
         setTimeout(() => circle.remove(), 500)
-        console.log(x, y)
     })
 })

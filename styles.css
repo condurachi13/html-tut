@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Source+Code+Pro&display=swap');
 body {
     background-image: url(backg.jpeg);
     background-repeat: no-repeat;
@@ -8,16 +9,21 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
+
 .title {
     border-style: solid;
-    margin: 5px;
+    margin: 15px;
     text-align: center;
     border-radius: 40px;
     border-color: black;
     font-style: oblique;
     color: rgb(225, 248, 225);
-    text-shadow: 4px 4px 4px rgb(112, 112, 112);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    width: 35%;
+    background-color: rgba(172, 94, 31, 0.404);
 }
 h3 {
     text-align: center;
@@ -29,7 +35,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0%;
-    width: 15%;
+    width: 25%;
     border-radius: 50%;
     box-shadow: 4px 8px 6px 6px grey;
     position: relative;
@@ -40,29 +46,29 @@ h3 {
     50% {left: -25px; top: 0px;}
     100% {left: 25px; top: 0px;}
 }
-nav {
+.meniu {
     text-align: center; 
     background-color: rgba(184, 167, 80, 0.45);
-    width: fit-content;
+    width: 100%;
+    padding: 10px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 20%;
+    margin: 0px;
 }
-nav ul {
+.meniu ul {
     list-style: none;
-    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    border-color: rgba(112, 102, 56, 0.329);
 }
-nav li {
-    display: inline-block;
-    padding: 8px;
-    border-style: solid;
-    border-radius: 30%;
-    border-color: rgb(66, 66, 66);
-    width: fit-content;
-}
-a {
+.meniu ul a {
+    position: relative;
+    color:black;
     text-decoration: none;
+    margin: 0 10px;
 }
+
 label, input, textarea, button {
     display: block;
     margin: auto;
@@ -106,6 +112,7 @@ button .circle {
     background-color: rgba(0, 0, 0, 0.404);
     padding: 23px 40px;
     border-radius: 18px;
+    color: rgb(167, 231, 240);
 }
 * {
     box-sizing: border-box;

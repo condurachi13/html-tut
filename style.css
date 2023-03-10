@@ -4,12 +4,12 @@
     overflow: auto;
     position: fixed;
     border-radius: 5px;
+    top: 0px;
 }
 body {
     background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-Gpa9YigBa4oDxCodcV5ts5PRKyFfNSmlhhfPeT4DSAGGphI6SbqmRKnDS93o01pTLOJmYPFBhhiDsbjMGkuGEVN2cpS-SGsVoW-UA0IjbGAg_yGeg6cGmWJqSpY2QkwrwCM9IRbC0ebzOTZz2xaprucBGKm6CVwD2IApfR2zl1wCQPsrYsrVOTN0TQ/s16000/30042022-v2-MINIMALIST-LANDSCAPE.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-size: cover;
+    background-size: auto;
 }
 .navbar a {
     text-decoration: none;
@@ -66,4 +66,8 @@ p {
     width: 70%;
     position: absolute;
     
+}
+.active {
+    background-color: rgba(0, 0, 0, 0.441);
+    color: rgb(252, 252, 252);
 }

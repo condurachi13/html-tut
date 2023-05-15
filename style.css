@@ -1,0 +1,73 @@
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.501);
+    overflow: auto;
+    position: fixed;
+    border-radius: 5px;
+    top: 0px;
+}
+body {
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-Gpa9YigBa4oDxCodcV5ts5PRKyFfNSmlhhfPeT4DSAGGphI6SbqmRKnDS93o01pTLOJmYPFBhhiDsbjMGkuGEVN2cpS-SGsVoW-UA0IjbGAg_yGeg6cGmWJqSpY2QkwrwCM9IRbC0ebzOTZz2xaprucBGKm6CVwD2IApfR2zl1wCQPsrYsrVOTN0TQ/s16000/30042022-v2-MINIMALIST-LANDSCAPE.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.navbar a {
+    text-decoration: none;
+    float: left;
+    padding: 6px;
+    color: grey;
+    font-size: 17px;
+    width: 30%;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+h2 {
+    text-align: center;
+    width: 100%;
+    text-shadow: 12px black;
+    
+}
+.box {
+    position: absolute;
+    right: 5px;
+}
+.box div {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    right: 2px;
+    position: relative;
+
+}
+.cutie {
+    transition: .35s;
+    cursor: pointer;
+    background-image: url(https://i.pinimg.com/236x/0c/fd/a2/0cfda250d33a038d777ef363e6ced83c.jpg);
+    background-size: 100px 100px;
+}
+.box:hover > :not(:hover){
+    opacity: .7;
+    transform: scale(0.9);
+}
+p {
+    width: 70%;
+    position: absolute;
+    
+}
+.active {
+    background-color: rgba(0, 0, 0, 0.441);
+    color: rgb(252, 252, 252);
+}
